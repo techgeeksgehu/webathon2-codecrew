@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("pngtree-contemporary-graphic-design-futuristic-white-metallic-texture-background-for-website-banner-image_13894421.png");
+background-size: cover;
+}
+header li {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  justify-content: space-around;
+  align-items: right;
+}
+header ul {
+  position: absolute;
+  padding: 10px;
+  width: 2000px;
+  top: 26px;
+  left: 1032px;
+}
+header ul li a {
+  display: block;
+  text-decoration: none;
+  height: 30px;
+  font-size: xx-large;
+  color: black;
+}
+img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+section h1 {
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+section h4 {
+  text-align: center;
+  font-weight: bold;
+}
+section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 2s ease;
+  margin-left: 45%;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 20px;
+  border-color: gold;
+}
+div#about {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.photocontainer {
+  display: inline-block;
+  position: absolute;
+}
+div#photo1 {
+  border-style: solid;
+  margin-left: 18px;
+  width: 400px;
+  height: 300px;
+}
+div#photo1 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+div#photo2 {
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin-top: -309px;
+  margin-left: 525px;
+}
+div#photo2 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+div#photo3 {
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin-top: -309px;
+  margin-left: 1035px;
+  padding-bottom: 3px;
+}
+div#photo3 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+.photocontainer div#photo1 img:hover{
+   cursor: pointer;
+}
+div.photocontainer2 {
+  display: inline-block;
+  position: absolute;
+}
+div#photo4 {
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin-top: 338px;
+  margin-left: 15px;
+}
+div#photo4 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+div#photo5 {
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin-top: -304px;
+  margin-left: 525px;
+}
+div#photo5 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+div#photo6 {
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin-top: -304px;
+  margin-left: 1035px;
+  padding-bottom: 3px;
+}
+div#photo6 img{
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+footer {
+    background-color:black;
+    background-position: fixed;
+    background-size: 100%;
+    height:400px;
+    margin-top: 1000px;
+}
+
+footer .list h1{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color:#fff;
+}
+
+.logo{
+    
+    border:#fff;
+    cursor:pointer;
+    color:#089da1;
+}
+
+.logo i{
+    width:80px;
+    display: inline-block;
+    font-size:xx-large;
+    color:#089da1;
+    border: 100px;
+
+}
+.logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    font-weight: dark;
+    font-display: flex;
+    color:#fff;
+    display: inline-block;
+}
+
+.logo i :hover{
+    cursor:pointer;
+    color: #089da1;
+}
+
+.contact h3{
+   color:#a133e9;
+   margin-left: 1000px;
+   margin-bottom:0px;
+   z-index:100;
+   font-size: xx-large;
+   margin-top: -120px;
+}
+
+footer div.quotes h1{
+    color: white;
+    font-size: xxx-large;
+
+}
+
+div.contact2{
+    margin-left: 1004px;
+}
+.contact2 p{
+    color: white;
+    font-size: x-large;
+}
+
+.contact2 a{
+    color: rgb(96, 234, 249);
+    text-decoration: none;
+}
+div.copyright{
+   text-align: center;
+   margin-top: 100px;
+}
+div.copyright p{
+    color: white;
+}
